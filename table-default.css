@@ -33,6 +33,7 @@
     border-collapse: collapse;
     height: auto;
     border: 1px solid var(--border-color);
+    margin: 0 !important;
 }
 
 .table-default tbody th {
