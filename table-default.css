@@ -20,12 +20,12 @@
 .specification-item {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing);
 }
 
 .specification-title {
     font-size: 16px;
     font-weight: 600;
+    margin-bottom: 6px;
 }
 
 .table-default {
