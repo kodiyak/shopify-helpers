@@ -1,7 +1,7 @@
 :root {
     --border-color: #ccc;
     --background-secondary: #f9f9f9;
-    --spacing: 1rem;
+    --spacing: 2rem;
 }
 
 .table-root {
@@ -14,12 +14,12 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: var(--spacing);
 }
 
 .specification-item {
     display: flex;
     flex-direction: column;
+    margin-top: var(--spacing);
 }
 
 .specification-title {
